@@ -49,15 +49,49 @@ cd AREP-LAB08-PT2
 
 Next, you must edit the RAGProyect.py file on lines 11 and 12 to enter the ChatGPT API key and the LangChain API key (the specific keys are indicated in the Moodle delivery comments).
 
+Here's a shorter version of the steps with clearer instructions in English:
+
+Obtain API Keys:
+
+### OpenAI:
+
+Log in to https://openai.com/ and access your profile (top-right corner).
+Select "View API Keys" and create a new secret key.
+Important: Save this key securely, as it won't be retrievable later.
+
+### LangSmith:
+
+Log in to https://www.langchain.com/langsmith and go to your account settings.
+Generate a new API key.
+
+```bash
+os.environ["OPENAI_API_KEY"] = "(OPEN_AI KEY)"
+os.environ["LANGCHAIN_API_KEY"] = "(LANG_API KEY)"
+```
+
 2. Build and run:
 
 ```bash
+python -m venv .venv
 cd .venv/Scripts
 activate
 pip install -r requirements.txt
 python RAGServer.py
 ```
 
+## Code in Action
+
+![image](https://github.com/user-attachments/assets/a970d106-93e7-4332-a518-55f69c1d9afc)
+
+![image](https://github.com/user-attachments/assets/b8c8b92d-cebf-4a1d-8c1a-7470345db362)
+
+![image](https://github.com/user-attachments/assets/e47cfcf1-38ad-41fe-bd34-51d05e766b17)
+
+
+
+Video of the Application Running
+
+[VIDEO 8](https://youtu.be/SFR3dDg2lzk)
 
 ### Build with:
     
