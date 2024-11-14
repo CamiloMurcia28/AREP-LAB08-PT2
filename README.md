@@ -78,6 +78,8 @@ activate
 pip install -r requirements.txt
 python RAGServer.py
 ```
+Then go to this URL and change the parameter in the brackets to your question, ex: 
+http://localhost:8000/rag?question=(what%20are%20the%20best%20keycaps)
 
 ## Code in Action
 
@@ -86,6 +88,8 @@ python RAGServer.py
 ![image](https://github.com/user-attachments/assets/b8c8b92d-cebf-4a1d-8c1a-7470345db362)
 
 ![image](https://github.com/user-attachments/assets/e47cfcf1-38ad-41fe-bd34-51d05e766b17)
+
+![image](https://github.com/user-attachments/assets/1e7140bf-3f23-47e6-b89d-57ef328be289)
 
 
 
