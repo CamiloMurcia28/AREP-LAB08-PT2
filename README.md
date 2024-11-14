@@ -91,7 +91,8 @@ http://localhost:8000/rag?question=(what%20are%20the%20best%20keycaps)
 
 ![image](https://github.com/user-attachments/assets/1e7140bf-3f23-47e6-b89d-57ef328be289)
 
-![GifRunning.gif](GifRunning.gif)
+![Gif](https://github.com/CamiloMurcia28/AREP-LAB08-PT2.git/GifRunning.gif)
+
 
 Video of the Application Running
 
